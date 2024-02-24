@@ -1,6 +1,6 @@
 # List
 
-List is a collection type whose items are ordered, changeable, and allow duplicate values.
+List is a collection type whose items are ordered, mutable, and allow duplicate values.
 
 # References
 

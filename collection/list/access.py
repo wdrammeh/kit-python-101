@@ -1,4 +1,4 @@
-fruits = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+fruits = ["apple", "banana", "orange", "kiwi", "melon", "mango"]
 print(fruits)
 
 # index

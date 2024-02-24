@@ -1,12 +1,13 @@
-fruits = ["banana", "cherry", "kiwi", "melon"]
+fruits = ["banana", "mango", "orange", "melon"]
 print(fruits)
 
-fruits.remove('kiwi') # removes the 1st occurence of the arg
+fruits.remove('orange') # removes the 1st occurence of the arg
+print(fruits)
 
 fruits.pop() # removes last
+print(fruits)
 
 fruits.pop(1)
-
 print(fruits)
 # del fruits[0]
 # print(fruits)
