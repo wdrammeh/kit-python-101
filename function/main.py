@@ -2,7 +2,7 @@ def say_hello():
     print('Hello')
 
 # say_hello()
-    
+
 def say_hi(name):
     print('Hi', name)
 

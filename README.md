@@ -10,4 +10,4 @@ Feb - April, 2024
 
 Muhammed W. Drammeh <wakadrammeh@gmail.com>
 
-Software Developer, Uni of The Gambia
+Developer, Uni of The Gambia
