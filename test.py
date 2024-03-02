@@ -1,18 +1,9 @@
-def sum(x, y):
-    print(x + y)
+def diff_1():
+    print(1000 - 700)
 
-sum(10, 11)
-sum(1100, 200)
+def diff_2(x, y):
+    print(x - y)
 
-def product(*args):
-    print(args)
-    print(type(args))
-    for arg in args:
-        print(arg)
+diff_1()
+diff_2(200, 100)
 
-product(3, 6)
-
-def name(fname, lname):
-    print(fname, lname)
-
-name(lname='John', fname='Doe')
