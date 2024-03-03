@@ -6,3 +6,9 @@ def diff_2(x, y):
 
 diff_1()
 diff_2(200, 100)
+
+def quotient(x, y):
+    result = x / y
+    print(result)
+
+quotient(100, 20)

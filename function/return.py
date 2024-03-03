@@ -1,18 +1,7 @@
-# no explicit return
-def print_name(fname, lname):
-    print(fname, lname)
+def get_names(fname, lname):
+    full_name = fname + ' ' + lname
+    return full_name
 
-print_name('John', 'Doe')
 
-# return
-
-def get_name(fname, lname):
-    return fname + ' ' + lname
-
-full_name = get_name('Alasan', 'Mballow')
-print(full_name)
-
-def sum(x, y):
-    return x + y
-
-print(sum(12, 13))
+name = get_names('John', 'Dae')
+print(name)
