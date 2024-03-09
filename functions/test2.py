@@ -11,4 +11,4 @@ def sum_2(*nums):
         sum = sum + num
     print(sum)
 
-sum_2(3, 6, 9, 12)
+sum_2(3, 6, 9, )

@@ -7,4 +7,4 @@ def sum(*numbs):
     return sum
 
 
-print(sum(1, 2, 3, 4))
+print(sum(1, 2, 3, 4, "moha"))

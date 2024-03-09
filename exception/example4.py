@@ -24,5 +24,5 @@ def method_2():
 
 
 if __name__ == "__main__":
-    method_1()
-    # method_2()
+    # method_1()
+    method_2()
