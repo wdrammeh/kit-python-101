@@ -10,8 +10,7 @@ class Student:
         self.yob = yob
         self.grade = grade
         self.section = section
-
-        Student.students_count += 1
+        Student.increment_count()
 
     def fullname(self):
         return f"{self.fname} {self.lname}"
@@ -25,3 +24,19 @@ class Student:
 
     def __str__(self):
         return self.fullname()
+
+    @classmethod
+    def increment_count(cls):
+        cls.students_count = cls.students_count + 1
+        
+    @classmethod
+    def get_count(cls):
+        return cls.students_count
+    
+    @staticmethod
+    def is_school_day():
+        current_day = datetime.now().weekday()
+        if current_day == 5 or current_day == 6:
+            return False
+        return True
+    

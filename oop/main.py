@@ -1,15 +1,18 @@
-from student import Student
+from animal import Animal
+from donkey import Donkey
+from dog import Dog
 
 if __name__ == "__main__":
-    maha = Student("Muhammed", "Drammeh", 1999, "10", "Art")
-    eb = Student("Ebrima", "Sanneh", 2010, "9", "A")
-    sul = Student("Sulayman", "Manjang", 2015, "7", "Pink")
+    # animal = Animal("Unknown")
+    # animal.run()
     
-    fullname = maha.fullname()
-    fullname = Student.fullname(maha)
-    print(fullname)
-    # print(maha.classroom())
-    # print(eb.fullname())
-    # print(sul.fullname())
+    dog = Dog()
+    # print(dog.specie)
+    # dog.run()
+    dog.make_sound()
     
-    print(Student.students_count)
+    # donkey = Donkey()
+    # print(donkey.specie)
+    # donkey.run()
+    
+    # donkey.make_sound()
