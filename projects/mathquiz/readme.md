@@ -8,8 +8,8 @@ Write a program that randomly generates a simple arithmetic expression of only o
 - The user should be able to continue using the program for as long as they want
 - Terminate the program when the user enters "q"
 - Write all result to a log file
-- Re-implement the solution using OOP
 - Show the total score upon exit, in values and in percentage
+- Re-implement the solution using OOP
 
 # Example
 

@@ -13,7 +13,7 @@ def lcd(a, b):
 """
 Return all factors of a numbers
 """
-def factors(a):
+def factors(n):
     pass
 
 
