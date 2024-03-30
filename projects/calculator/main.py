@@ -2,11 +2,12 @@ print("Welcome to my calculator app")
 while True:
     # Read the user input
     expr = input("> ")
+    # User wants to quit?
     if expr == "q":
         break
     # Get rid of unnecessary spaces
     expr = expr.replace(" ", "")
-    # Additio?
+    # Addition?
     if expr.__contains__("+"):
         # Split the input string to get the two numbers
         vars = expr.split("+")
@@ -17,8 +18,8 @@ while True:
             print(result)
         except:
             print("Error")
+    # Subtraction?
     elif expr.__contains__("-"):
-        # Split the input string to get the two numbers
         vars = expr.split("-")
         try:
             x = int(vars[0])
@@ -27,8 +28,8 @@ while True:
             print(result)
         except:
             print("Error")
+    # Modulus
     elif expr.__contains__("mod"):
-        # Split the input string to get the two numbers
         vars = expr.split("mod")
         try:
             x = int(vars[0])
