@@ -11,10 +11,10 @@ In python,
 
 # Variable names
 
-- Can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ ), but cannot start with a number
-- Cannot be any of python's reserved keywords.
+- Can only contain alpha-numeric characters (A-Z 0-9) and underscores (_), but cannot start with a number
+- Cannot be any of python's reserved keywords
 
-> Variables names are case-sensitive: first != First
+> Variable names are case-sensitive: first != First
 
 # References
 
