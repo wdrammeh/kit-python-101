@@ -2,7 +2,7 @@ person = {
    'name': 'Muhammed Drammeh',
    'age': 25,
    'address': 'Sukuta',
-   'is_married': False
+   'is_married': False,
 }
 
 print(person)

@@ -11,5 +11,5 @@ def how_many_times(char, string):
     return counter
 
 if __name__ == "__main__":
-    x = how_many_times("m", "Jallow")
+    x = how_many_times("l", "Jallow")
     print(x)

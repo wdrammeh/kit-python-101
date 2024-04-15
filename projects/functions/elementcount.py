@@ -11,5 +11,5 @@ def how_many(e, c):
     return counter
 
 if __name__ == "__main__":
-    x = how_many(1, [1, 2, 1,1])
+    x = how_many(1, ["1", 2, "1",1])
     print(x)
